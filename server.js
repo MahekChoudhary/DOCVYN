@@ -9,7 +9,7 @@ const mammoth = require("mammoth");
 const { PDFParse } = require("pdf-parse");
 const { GoogleGenAI } = require("@google/genai");
 
-const Document = require("./models/Document");
+const Document = require("./models/document");
 
 const app = express();
 const PORT = 3000;
